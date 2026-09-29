@@ -19,7 +19,7 @@ w-xy-z
 -   Where `w` and `-w` indicate a boolean variable, and its negation. So the file listed above represents the expression:
 
 $$
-wxy\overline{z} + w\overline{x}yz + w\overline{x}y\overline{z} + \overline{w}xyz + \overline{w}x\overline{y}z + \overline{w}\,\overline{x}yz + \overline{w}\,\overline{x}\,\overline{y}z
+wxy\overline{z} + w\overline{x}yz + w\overline{x}y\overline{z} + \overline{w}xyz + \overline{w}x\overline{y}z + \overline{w}\overline{x}yz + \overline{w}\overline{x}\overline{y}z
 $$
 
 ## How to Run
