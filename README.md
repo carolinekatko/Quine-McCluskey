@@ -39,7 +39,9 @@ python main.py in.txt
 5.  SilentGhost. Answer to [*How do I access command line arguments?*](https://stackoverflow.com/questions/4033723/how-do-i-access-command-line-arguments) Stack Overflow. [Answer link](https://stackoverflow.com/a/4033743). Modified by community. License: CC BY-SA 3.0. Retrieved 2026-09-29.
 6.  W3Schools. [*Python File Open*](https://www.w3schools.com/python/python_file_open.asp). Used: whole page.
 7.  user225312. Answer to [*How do I split a string into a list of characters?*](https://stackoverflow.com/questions/4978787/how-do-i-split-a-string-into-a-list-of-characters) Stack Overflow. [Answer link](https://stackoverflow.com/a/4978792). Modified by community. License: CC BY-SA 4.0. Retrieved 2026-09-29.
+8.  user1006198. [*Python: How to check if a line is an empty line*](https://stackoverflow.com/questions/7896495/python-how-to-check-if-a-line-is-an-empty-line). Stack Overflow question ([question link](https://stackoverflow.com/q/7896495)). Modified by community. License: CC BY-SA 4.0. Retrieved 2026-09-29.
+9.  jamylak. Answer to [*How do I remove duplicates from a list, while preserving order?*](https://stackoverflow.com/questions/480214/how-do-i-remove-duplicates-from-a-list-while-preserving-order) Stack Overflow. [Answer link](https://stackoverflow.com/a/17016257). Modified by community. License: CC BY-SA 4.0. Retrieved 2026-09-29.
 
-## AI Disclosure
+## **AI Disclosure**
 
-Claude was used in this project for: debugging, brainstorming, explaining concepts and ideas, genereating test cases, and documentation formatting. Claude did NOT write any code for this project (including both pseudo and source).
+I wrote the pseudocode and source code for this project. AI was used as a resource for debugging, explaining concepts, generating test cases, documentation formatting, and code auto-fill assistance. For the minimum-combination portion, AI helped me develop the approach and provided examples of using `itertools.combinations` and controlling the nested loops, which I incorporated into my implementation.

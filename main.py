@@ -13,7 +13,8 @@ def main():
 
     with open(equation_file) as f:
         for line in f:
-            equation_list.append(line.strip())
+            if line != "\n":
+                equation_list.append(line.strip())
 
     letters = get_letters_in_equation(equation_list) 
     equation_binary = convert_all_terms_to_binary(equation_list)
@@ -21,7 +22,10 @@ def main():
     equation_letters = convert_all_binary_to_letters(quine_McCluskey_terms, letters)
     print("The minimized circuit is:")
     for i in range(len(equation_letters)):
-        print(equation_letters[i])
+        if len(equation_letters[i]) == 0:
+            print("1")
+        else: 
+            print(equation_letters[i])
 
 if __name__ == "__main__":
     main()

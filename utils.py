@@ -45,7 +45,7 @@ def replace_with_dash(string1, string2):
 # remove_duplicates
 # returns a list with all duplicates removed
 def remove_duplicates(a_list):
-    return list(set(a_list))
+    return list(dict.fromkeys(a_list))
 
 # determine_ancestry
 # returns a list of all possible ancestors of a term
@@ -154,14 +154,3 @@ def convert_all_binary_to_letters(equation_binary, letters_in_origional):
     for i in range(len(equation_binary)):
         equation_letters.append(convert_binary_term_to_letters(equation_binary[i], letters_in_origional))
     return equation_letters
-
-
-
-# Citations:
-# https://www.geeksforgeeks.org/python/python-combinations-of-elements-till-size-n-in-list/
-# https://stackoverflow.com/questions/16603282/how-to-compare-each-item-in-a-list-with-the-rest-only-once
-# https://stackoverflow.com/questions/4211209/remove-all-the-elements-that-occur-in-one-list-from-another
-# https://stackoverflow.com/questions/8177079/take-the-content-of-a-list-and-append-it-to-another-list
-# https://stackoverflow.com/questions/4033723/how-do-i-access-command-line-arguments
-# https://www.w3schools.com/python/python_file_open.asp
-# https://stackoverflow.com/questions/4978787/how-do-i-split-a-string-into-a-list-of-characters

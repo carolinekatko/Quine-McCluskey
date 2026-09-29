@@ -2,5 +2,5 @@
 -a-bc
 -abc
 ab-c
-abc           
+abc
 a-b-c
