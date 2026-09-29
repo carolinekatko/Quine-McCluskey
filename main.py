@@ -7,6 +7,9 @@ from quineMcCluskey import quine_McCluskey
 from utils import *
 
 def main():
+
+    check_for_file()
+    
     equation_list = []
     letters = []
     equation_file = sys.argv[1]
@@ -14,7 +17,9 @@ def main():
     with open(equation_file) as f:
         for line in f:
             if line != "\n":
+                line = line.replace(" ", "")
                 equation_list.append(line.strip())
+                
 
     letters = get_letters_in_equation(equation_list) 
     equation_binary = convert_all_terms_to_binary(equation_list)
