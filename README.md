@@ -41,6 +41,7 @@ python main.py in.txt
 7.  user225312. Answer to [*How do I split a string into a list of characters?*](https://stackoverflow.com/questions/4978787/how-do-i-split-a-string-into-a-list-of-characters) Stack Overflow. [Answer link](https://stackoverflow.com/a/4978792). Modified by community. License: CC BY-SA 4.0. Retrieved 2026-09-29.
 8.  user1006198. [*Python: How to check if a line is an empty line*](https://stackoverflow.com/questions/7896495/python-how-to-check-if-a-line-is-an-empty-line). Stack Overflow question ([question link](https://stackoverflow.com/q/7896495)). Modified by community. License: CC BY-SA 4.0. Retrieved 2026-09-29.
 9.  jamylak. Answer to [*How do I remove duplicates from a list, while preserving order?*](https://stackoverflow.com/questions/480214/how-do-i-remove-duplicates-from-a-list-while-preserving-order) Stack Overflow. [Answer link](https://stackoverflow.com/a/17016257). Modified by community. License: CC BY-SA 4.0. Retrieved 2026-09-29.
+10.  GeeksforGeeks. [*Python – Remove spaces from a string*](https://www.geeksforgeeks.org/python/python-remove-spaces-from-a-string/).
 
 ## **AI Disclosure**
 
